@@ -22,4 +22,7 @@ module tt_um_loopback (
 	assign uo_out[6:0] = {7{ui_in[0]}};
 	assign uo_out[7] = &ui_in[7:4];
 
+	assign uio_out = 0;
+	assign uio_oe = 0;
+
 endmodule // tt_um_loopback
